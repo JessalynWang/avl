@@ -1,0 +1,20 @@
+Range Searching with AVL Trees
+Jessalyn Wang, jwang456
+
+--Description--
+The lab contains an implmentation of an AVL tree. It allows for insertions and range queries.
+
+--Files--
+avl.h: header file for the AVL tree class
+
+avl.cpp: file containing the functions in the AVL tree
+
+wordrange.cpp: wrapper file that takes queries given by an input file and writes the appropriate results to an output file
+
+Makefile: creates an executable, called wordrange, on running make
+
+README: this file
+
+--Usage--
+On running make, an executable named wordrange is created. Run ./wordrange <input file> <output file>. The input file should contain commands in the form of <command> <value>. Wordrange supports insertion and range commands. Insertion should be formatted as i <value to be inserted>, while range should be formatted as r <value1> <value2> where value1 is less than value2. Wordrange writes the result of all range commands to the output file.
+
